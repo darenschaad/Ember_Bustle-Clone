@@ -13,3 +13,8 @@
 .mainli {
   list-style-type: none;
 }
+
+.postImg {
+  max-width: 600px;
+  max-height: auto;
+}

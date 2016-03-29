@@ -1,7 +1,8 @@
 <div class="col-sm-6">
-  <li class="mainli">
+  <li class="mainli">{{#link-to 'post' post.id}}
     <img class="mainpageimg" src={{post.photo}} alt={{post.title}}><br>
     {{post.title}}<br>
     {{post.author}}{{post.date}}<br>
+    {{/link-to}}
   </li>
 </div>
