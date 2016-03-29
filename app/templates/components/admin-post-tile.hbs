@@ -1,8 +1,16 @@
 <div class="col-sm-6">
   <li class="mainli">{{#link-to 'adminpost' post.id}}
-    <img class="mainpageimg" src={{post.photo}} alt={{post.title}}><br>
-    {{post.title}}<br>
-    {{post.author}}{{post.date}}<br>
+    <div class="image">
+      <img class="mainpageimg" src={{post.photo}} alt={{post.title}}><br>
+      <div class="genre">
+        <p>
+          {{post.genre}}
+        </p>
+      </div>
+    </div>
+    <p><span class="title">{{post.title}}</span><br>
+    Author:  {{post.author}}<br>
+    {{post.date}}</p>
     {{/link-to}}
   </li>
 </div>

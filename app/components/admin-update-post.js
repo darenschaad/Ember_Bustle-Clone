@@ -13,6 +13,7 @@ export default Ember.Component.extend({
         author: this.get('author'),
         date: this.get('date'),
         content: this.get('content'),
+        genre: this.get('genre'),
       };
       this.set('updatePostForm', false);
       this.sendAction('update', post, params);

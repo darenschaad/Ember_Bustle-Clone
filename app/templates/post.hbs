@@ -1,2 +1,16 @@
-<h2>{{post.title}}<img class="postImg" src={{model.photo}} alt={{model.title}}/></h2>
-{{post-detail post=model}}
+<div class="row">
+  <div class="col-sm-4">
+    <h2>{{model.title}}</h2>
+  </div>
+  <div class="col-sm-8">
+    <img class="postImg" src={{model.photo}} alt={{model.title}}/>
+  </div>
+</div>
+
+
+<h4>
+  Post By: {{model.author}}
+</h4>
+<p>
+  {{model.content}}
+</p>

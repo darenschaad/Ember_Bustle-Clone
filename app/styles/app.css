@@ -8,6 +8,7 @@
 
 .mainpageimg {
   max-width: 420px;
+  height: 210px;
 }
 
 .mainli {
@@ -17,4 +18,30 @@
 .postImg {
   max-width: 600px;
   max-height: auto;
+}
+
+.btn {
+  margin: 12px;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.genre {
+   position: absolute;
+   top: 2%;
+   left: 4%;
+   width: 100%;
+   color: white;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
 }
