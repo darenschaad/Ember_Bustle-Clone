@@ -1,0 +1,15 @@
+.navbar {
+  margin-bottom: -50px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.mainpageimg {
+  max-width: 420px;
+}
+
+.mainli {
+  list-style-type: none;
+}
