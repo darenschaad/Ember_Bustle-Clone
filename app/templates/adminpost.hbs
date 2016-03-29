@@ -1,0 +1,10 @@
+<h2>{{model.title}}<img class="postImg" src={{model.photo}} alt={{model.title}}/></h2>
+<p>
+  Post By: {{model.author}}
+</p>
+<p>
+  {{model.content}}
+</p>
+
+{{admin-update-post post=model update="update"}}
+{{admin-post-detail post=model destroyPost="destroyPost"}}

@@ -1,9 +1,8 @@
 <div class="col-sm-6">
-  <li class="mainli">
+  <li class="mainli">{{#link-to 'adminpost' post.id}}
     <img class="mainpageimg" src={{post.photo}} alt={{post.title}}><br>
     {{post.title}}<br>
     {{post.author}}{{post.date}}<br>
-    {{admin-update-post post=post update="update"}}
-    <button class="btn btn-danger" {{action 'delete' post}}>Delete Post</button>
+    {{/link-to}}
   </li>
 </div>
