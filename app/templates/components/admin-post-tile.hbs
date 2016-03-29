@@ -3,6 +3,7 @@
     <img class="mainpageimg" src={{post.photo}} alt={{post.title}}><br>
     {{post.title}}<br>
     {{post.author}}{{post.date}}<br>
+    {{admin-update-post post=post update="update"}}
     <button class="btn btn-danger" {{action 'delete' post}}>Delete Post</button>
   </li>
 </div>

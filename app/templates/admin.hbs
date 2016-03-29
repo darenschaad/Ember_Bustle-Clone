@@ -3,7 +3,7 @@
 <div class="row">
   <ul>
     {{#each model as |post|}}
-    {{admin-post-tile post=post destroyPost="destroyPost"}}
+    {{admin-post-tile post=post update="update" destroyPost="destroyPost"}}
     {{/each}}
   </ul>
 </div>
