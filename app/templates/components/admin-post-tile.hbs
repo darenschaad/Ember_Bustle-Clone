@@ -1,0 +1,8 @@
+<div class="col-sm-6">
+  <li class="mainli">
+    <img class="mainpageimg" src={{post.photo}} alt={{post.title}}><br>
+    {{post.title}}<br>
+    {{post.author}}{{post.date}}<br>
+    <button class="btn btn-danger" {{action 'delete' post}}>Delete Post</button>
+  </li>
+</div>

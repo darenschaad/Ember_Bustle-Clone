@@ -1,0 +1,9 @@
+{{admin-new-post save="save"}}<!--DOES THIS NEED TO GO INSIDE THE ROW?<-->
+
+<div class="row">
+  <ul>
+    {{#each model as |post|}}
+    {{admin-post-tile post=post destroyPost="destroyPost"}}
+    {{/each}}
+  </ul>
+</div>
